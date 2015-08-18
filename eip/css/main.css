@@ -1,0 +1,313 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 12pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #C9E0ED;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+        font:  normal 16pt '新細明體';
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+    background:white url(bg.gif) repeat-x left top;
+    
+}
+
+#mainmenu ul
+{
+    padding:6px 20px 5px 20px;
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    position: relative; 
+    height: 30px;
+}
+
+/*全部放在同一行*/
+#mainmenu ul li
+{
+    display: block; 
+    height: 30px; 
+    float: left; 
+    overflow: visible;
+    position: relative;
+}
+
+/*子選項的位置*/
+#mainmenu li ul
+{
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    /*子選項的長度*/
+    width: 150px;
+}
+
+/*不顯示子選項*/
+#mainmenu li ul li 
+{
+    display: none;
+}
+
+/*垂直置中*/
+#mainmenu ul li a
+{
+    float: left; 
+    display: block; 
+    color:#ffffff;
+    background-color:transparent;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+
+/*滑鼠移上去, 顯示子選項*/
+#mainmenu .active a
+{
+    display: block;
+    color:#ffffff;
+    background-color:transparent;
+    text-decoration:none;
+
+}
+
+#mainmenu li:hover > a
+{
+    color:#00ffff;
+}
+#mainmenu li:hover > ul li
+{
+    display: block;
+    color:#ff0000;
+    background-color:#2e6ab1;
+    text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success, div.flash-time
+{
+	padding:.2em;
+	margin-bottom:.2em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-time
+{
+	background:#99FFFF;
+	color:#264409;
+	border-color:#000066;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+    float: right;
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+/*.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}*/
+
+.operations {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+float: left;
+}
+.operations li {
+margin:3px;
+padding: 2px 8px 2px 0px; 
+float: left;
+border-right: 2px solid #999;
+}
+.operations li a
+{
+    font: bold 14px Arial;
+    color: #0066A4;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 14px;
+    text-decoration: none;
+}
+.operations li a:visited
+{
+	color: #0066A4;
+}
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+

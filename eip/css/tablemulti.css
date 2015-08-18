@@ -1,0 +1,148 @@
+
+tableMultiInput {
+
+margin:0px;padding:0px;
+/*width:100%;	box-shadow: 10px 10px 5px #888888;*/
+border:1px solid #000000;
+
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+
+}.tableMultiInput table{
+width:100%;
+height:100%;
+margin:0px;padding:0px;
+
+}.tableMultiInput tr:last-child td:last-child {
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+}
+.tableMultiInput table tr:first-child td:first-child {
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+}
+.tableMultiInput table tr:first-child td:last-child {
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+}.tableMultiInput tr:last-child td:first-child{
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+}.tableMultiInput tr:hover td{
+background-color:#d3e9ff;
+}
+.tableMultiInput td{
+vertical-align:middle;
+background:-o-linear-gradient(bottom, #ffffff 5%, #d3e9ff 100%);	
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d3e9ff) ); 	
+background:-moz-linear-gradient( center top, #ffffff 5%, #d3e9ff 100% );	
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#d3e9ff");	
+background: -o-linear-gradient(top,#ffffff,d3e9ff);
+background-color:#ffffff;
+border:1px solid #000000;
+border-width:0px 1px 1px 0px;
+text-align:center;
+padding:0px;
+font-size:16px;
+font-family:'新細明體';
+font-weight:normal;
+color:#000000;
+}.tableMultiInput tr:last-child td{
+border-width:0px 1px 0px 0px;
+}.tableMultiInput tr td:last-child{
+border-width:0px 0px 1px 0px;
+}.tableMultiInput tr:last-child td:last-child{
+border-width:0px 0px 0px 0px;
+}
+.tableMultiInput tr:first-child td{
+background:-o-linear-gradient(bottom, #0057af 5%, #007fff 100%);	
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );	
+background:-moz-linear-gradient( center top, #0057af 5%, #007fff 100% );	
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");	
+background: -o-linear-gradient(top,#0057af,007fff);
+background-color:#0057af;
+border:0px solid #000000;
+text-align:center;
+border-width:0px 0px 1px 1px;
+font-size:16px;
+font-family:'新細明體';
+font-weight:bold;
+color:#ffffff;
+}
+.tableMultiInput tr:first-child:hover td{
+background:-o-linear-gradient(bottom, #0057af 5%, #007fff 100%);	
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );	
+background:-moz-linear-gradient( center top, #0057af 5%, #007fff 100% );	
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");	
+background: -o-linear-gradient(top,#0057af,007fff);
+background-color:#0057af;
+}
+.tableMultiInput tr:first-child td:first-child{
+border-width:0px 0px 1px 0px;
+}
+.tableMultiInput tr:first-child td:last-child{
+border-width:0px 0px 1px 1px;
+}.tableMultiInput input{
+	/*background-color: #fff;*/
+	font: 16px "新細明體";
+}.tableMultiInput input[type=text]{
+    
+                   text-align: center;
+}.tableMultiInput input[type=submit]{
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+        background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+        background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+        background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+        background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+        background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+        
+        background-color:#ffffff;
+        
+        -moz-border-radius:9px;
+        -webkit-border-radius:9px;
+        border-radius:9px;
+        
+        border:2px solid #dcdcdc;
+        
+        display:inline-block;
+        color:#666666;
+        font-family:'新細明體';
+        font-size:16px;
+        font-weight:normal;
+        padding:8px 12px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #ffffff;
+}
+.tableMultiInput input[type=submit]:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+        background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+        background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+        background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+        background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+        background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+        
+        background-color:#f6f6f6;
+}
+.tableMultiInput input[type=submit]:active {
+        position:relative;
+        top:1px;
+}
